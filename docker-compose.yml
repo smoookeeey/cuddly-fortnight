@@ -1,4 +1,4 @@
-version: '3'
+n version: '3'
 
 services:
   database:
@@ -26,6 +26,6 @@ services:
     volumes:
       - ./pgadmin-data/:/var/lib/pgadmin/
 
-networks: 
+networks: postgres-network
   postgres-network:
     driver: bridge
