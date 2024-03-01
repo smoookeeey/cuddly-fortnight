@@ -10,10 +10,10 @@
 # Some projects require creating a frogbot-config.yml file. Read more about it here - https://github.com/jfrog/frogbot/blob/master/docs/frogbot-config.md
 
 name: "Frogbot Scan and Fix"
-on:
+  on: on
   push:
     branches: [ "main" ]
-permissions:
+permissions: 
   contents: write
   pull-requests: write
   security-events: write
